@@ -1,12 +1,13 @@
-package com.example.springjdbctemplate
+package com.jos.dem.jdbc
 
 import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 
 @SpringBootApplication
-class DemoApplication {
+class JdbcApplication {
 
 	static void main(String[] args) {
-		SpringApplication.run DemoApplication, args
+		SpringApplication.run JdbcApplication, args
 	}
+	
 }
