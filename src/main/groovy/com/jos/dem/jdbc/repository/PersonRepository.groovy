@@ -15,7 +15,7 @@ class PersonRepository {
 
   public List<Person> findAll() {
     jdbcTemplate.query(
-      "SELECT id, nickname, email, ranking FROM person",
+      "SELECT * FROM person",
       BeanPropertyRowMapper.newInstance(Person.class)
     )
   }
