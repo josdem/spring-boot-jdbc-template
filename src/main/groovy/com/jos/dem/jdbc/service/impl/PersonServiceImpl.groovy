@@ -19,7 +19,7 @@ class PersonServiceImpl implements PersonService {
   Logger log = LoggerFactory.getLogger(this.class)
 
   List<Person> getPersons() {
-    log.info("Querying for getting persons")
+    log.info 'Querying for getting persons'
     personRepository.findAll()
   }
 

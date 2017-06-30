@@ -13,9 +13,9 @@ class PersonRepository {
   @Autowired
   JdbcTemplate jdbcTemplate
 
-  public List<Person> findAll() {
+  List<Person> findAll() {
     jdbcTemplate.query(
-      "SELECT * FROM person",
+      'SELECT * FROM person',
       BeanPropertyRowMapper.newInstance(Person.class)
     )
   }
