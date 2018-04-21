@@ -1,4 +1,4 @@
-package com.jos.dem.jdbc.service
+package com.jos.dem.springboot.jdbc.service
 
 import com.jos.dem.jdbc.model.Person
 

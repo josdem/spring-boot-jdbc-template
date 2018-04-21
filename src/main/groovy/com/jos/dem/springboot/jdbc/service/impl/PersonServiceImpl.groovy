@@ -1,4 +1,4 @@
-package com.jos.dem.jdbc.service.impl
+package com.jos.dem.springboot.jdbc.service.impl
 
 import org.springframework.stereotype.Service
 import org.springframework.beans.factory.annotation.Autowired

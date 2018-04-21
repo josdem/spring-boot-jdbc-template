@@ -1,4 +1,4 @@
-package com.jos.dem.jdbc.repository
+package com.jos.dem.springboot.jdbc.repository
 
 import org.springframework.stereotype.Repository
 import org.springframework.jdbc.core.JdbcTemplate

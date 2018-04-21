@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '1.5.4.RELEASE'
+		springBootVersion = '1.5.12.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -13,13 +13,13 @@ buildscript {
 apply plugin: 'groovy'
 apply plugin: 'org.springframework.boot'
 
+group = 'com.jos.dem.springboot.jdbc'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
 	mavenCentral()
 }
-
 
 dependencies {
   compile 'org.springframework.boot:spring-boot-starter'

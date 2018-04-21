@@ -1,4 +1,4 @@
-package com.jos.dem.jdbc.model
+package com.jos.dem.springboot.jdbc.model
 
 class Person {
 	
