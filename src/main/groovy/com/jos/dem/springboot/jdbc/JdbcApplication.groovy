@@ -4,8 +4,8 @@ import org.springframework.boot.SpringApplication
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.context.ConfigurableApplicationContext
 
-import com.jos.dem.jdbc.model.Person
-import com.jos.dem.jdbc.service.PersonService
+import com.jos.dem.springboot.jdbc.model.Person
+import com.jos.dem.springboot.jdbc.service.PersonService
 
 @SpringBootApplication
 class JdbcApplication {

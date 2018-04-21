@@ -5,7 +5,7 @@ import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.jdbc.core.BeanPropertyRowMapper
 import org.springframework.beans.factory.annotation.Autowired
 
-import com.jos.dem.jdbc.model.Person
+import com.jos.dem.springboot.jdbc.model.Person
 
 @Repository
 class PersonRepository {

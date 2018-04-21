@@ -1,6 +1,6 @@
 package com.jos.dem.springboot.jdbc.service
 
-import com.jos.dem.jdbc.model.Person
+import com.jos.dem.springboot.jdbc.model.Person
 
 interface PersonService {
 

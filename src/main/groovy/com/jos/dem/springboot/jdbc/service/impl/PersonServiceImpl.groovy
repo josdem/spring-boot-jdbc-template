@@ -3,9 +3,9 @@ package com.jos.dem.springboot.jdbc.service.impl
 import org.springframework.stereotype.Service
 import org.springframework.beans.factory.annotation.Autowired
 
-import com.jos.dem.jdbc.model.Person
-import com.jos.dem.jdbc.service.PersonService
-import com.jos.dem.jdbc.repository.PersonRepository
+import com.jos.dem.springboot.jdbc.model.Person
+import com.jos.dem.springboot.jdbc.service.PersonService
+import com.jos.dem.springboot.jdbc.repository.PersonRepository
 
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
