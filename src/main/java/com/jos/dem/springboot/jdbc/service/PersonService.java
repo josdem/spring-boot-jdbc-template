@@ -7,5 +7,6 @@ import java.util.List;
 public interface PersonService {
 
 	List<Person> getPersons();
+	void updateRanking(String nickname, int ranking);
 
 }

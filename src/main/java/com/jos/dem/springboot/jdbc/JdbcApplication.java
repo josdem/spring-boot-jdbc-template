@@ -22,6 +22,7 @@ public class JdbcApplication {
     @Bean
     CommandLineRunner run(PersonService personService){
         return args -> {
+            personService.updateRanking("martin", 5);
             List<Person> persons = personService.getPersons();
             persons.forEach(person -> log.info("person: {}", person));
         };

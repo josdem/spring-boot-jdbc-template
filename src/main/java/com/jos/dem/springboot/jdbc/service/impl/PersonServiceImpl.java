@@ -1,12 +1,11 @@
 package com.jos.dem.springboot.jdbc.service.impl;
 
+import com.jos.dem.springboot.jdbc.model.Person;
+import com.jos.dem.springboot.jdbc.repository.PersonRepository;
+import com.jos.dem.springboot.jdbc.service.PersonService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-
-import com.jos.dem.springboot.jdbc.model.Person;
-import com.jos.dem.springboot.jdbc.service.PersonService;
-import com.jos.dem.springboot.jdbc.repository.PersonRepository;
 
 import java.util.List;
 
@@ -20,6 +19,11 @@ public class PersonServiceImpl implements PersonService {
   public List<Person> getPersons() {
     log.info("Querying for getting persons");
     return personRepository.findAll();
+  }
+
+  public void updateRanking(String nickname, int ranking) {
+    log.info("Updating ranking");
+    personRepository.updateRanking(nickname, ranking);
   }
 
 }
