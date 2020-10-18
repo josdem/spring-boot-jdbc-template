@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/spring_boot_jdbc_template?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: username
+    password: password
+    driver-class-name: com.mysql.jdbc.Driver
