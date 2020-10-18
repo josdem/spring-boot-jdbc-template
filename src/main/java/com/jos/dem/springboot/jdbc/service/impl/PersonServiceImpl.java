@@ -16,6 +16,11 @@ public class PersonServiceImpl implements PersonService {
 
   private final PersonRepository personRepository;
 
+  public Person findByNickname(String nickname){
+    log.info("Getting person by nickname: {}", nickname);
+    return personRepository.findByNickname(nickname);
+  }
+
   public List<Person> getPersons() {
     log.info("Querying for getting persons");
     return personRepository.findAll();

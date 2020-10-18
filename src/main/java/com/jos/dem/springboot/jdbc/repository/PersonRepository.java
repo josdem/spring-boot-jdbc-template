@@ -16,6 +16,15 @@ public class PersonRepository {
 
   private final JdbcTemplate jdbcTemplate;
 
+
+  public Person findByNickname(String nickname) {
+    return jdbcTemplate.queryForObject(
+            "SELECT * FROM person WHERE nickname = ?", new Object[]{nickname},
+            BeanPropertyRowMapper.newInstance(Person.class)
+    );
+  }
+
+
   public List<Person> findAll() {
     return jdbcTemplate.query(
             "SELECT * FROM person",
